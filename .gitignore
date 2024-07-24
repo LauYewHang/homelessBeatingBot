@@ -1,1 +1,8 @@
+# token
 botToken.py
+
+# python generate thingy
+__pycache__/
+
+# Identifier file (when I copy to Ubuntu)
+*.Identifier
