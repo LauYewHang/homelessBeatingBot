@@ -3,8 +3,9 @@ from discord.ext import commands
 import mysql.connector # for connecting to mysql database
 
 import hmeme
+import start
 
-import botToken # for discord's bot token
+import keys # for discord's bot token
 
 # create class homelessBeatingBot from discord.ext.commands.Bot
 class homelessBeatingBot(commands.Bot):
@@ -24,4 +25,4 @@ bot = homelessBeatingBot(command_prefix = ".hb ", intents = intents, activity = 
 # `timestamps` - a dictionary with two keys: `start` & `end`, set up the start and end time of the activity in Unix epoch, milliseconds (doesn't display it though, but can be retrieve later in property)
 
 # activate the bot
-bot.run(botToken.botToken)
+bot.run(keys.botToken)
