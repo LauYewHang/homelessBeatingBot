@@ -7,6 +7,7 @@ import os, os.path # for accessing directory
 memeQuantity = len(os.listdir("homelessMeme/")) # get the number of memes
 # os.listdir("path") - returns a list of files inside the directory
 
+# source: https://www.youtube.com/watch?v=gX4_ZJl9BKg (for loading extension)
 # the function for hmeme
 @commands.command()
 async def hmeme(context):
