@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import mysql.connector # for connecting to mysql database
 
 import botToken # for discord's bot token
 
