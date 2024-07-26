@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import mysql.connector # for connecting to mysql database
 
-import hmeme
 import start
 
 import keys # for discord's bot token
@@ -14,6 +13,8 @@ class homelessBeatingBot(commands.Bot):
         # load the extension (hmeme function) from hmeme.py
         # source: https://www.youtube.com/watch?v=gX4_ZJl9BKg
         await bot.load_extension("hmeme")
+        # load `start` command
+        await bot.load_extension("start")
 
 intents = discord.Intents.all()
 
