@@ -9,5 +9,5 @@ SELECT DATABASE();
 CREATE TABLE IF NOT EXISTS tb_user (discordID VARCHAR(100));
 -- create the `user` table for storing basic user data
 -- query for changing table name: ALTER TABLE tableName RENAME TO newTableName;
- ALTER TABLE tb_user ADD PRIMARY KEY (discordID);
- -- I forgot to make field `discordID` primary key when creating, thus adding it here
+ALTER TABLE tb_user ADD PRIMARY KEY (discordID);
+-- I forgot to make field `discordID` primary key when creating, thus adding it here
